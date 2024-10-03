@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(
+        to bottom, 
+        #57b0d0d7 0%,   
+        #bdb08a80 50%, 
+        #b1a5ac 100%  
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    padding-top: 100px;
+}
+h1, h2, h3, h4 {
+    color: rgb(236, 239, 241);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-style: italic;
+    padding-bottom: 40px;
+    text-shadow: 1px 2px rgb(75, 68, 68);
+}
+.title {
+    font-size: 20px;
+    padding: 10px;
+}
+img {
+    border-radius: 8%;
+    padding: 15px;
+}
+li, p {
+    font-style: italic;
+    color: rgb(248, 246, 239);
+    text-shadow: 1px 1px rgb(66, 63, 63);
+    list-style-type: none;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
